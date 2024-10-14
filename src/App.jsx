@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import s3 from './assets/s3.png'
-import aws from './assets/aws.png'
+import aws from './assets/aws.svg'
 import './App.css'
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <a href="" target="_blank">
-          <img src={aws} className="logo" alt="Vite logo" />
+          <img src={aws} className="logo" style={{width:"100px"}} alt="Vite logo" />
         </a>
       </div>
       <h1>S3 + React</h1>
