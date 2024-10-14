@@ -11,7 +11,7 @@ function App() {
     <>
       <div>
         <a href="" target="_blank">
-          <img src={s3} className="logo" alt="Vite logo" />
+          <img src={s3} className="logo" alt="s3 logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
